@@ -102,3 +102,4 @@ var1 = 'Zophie'
 print(var1[1])
 #list is a mutable data type. i.e add , remove or change its values
 #string is immutable
+
