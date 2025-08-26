@@ -31,3 +31,20 @@ for i in spam.items():
 print('age' in spam.values())
 print('age' not in spam.values())
 print('age' in spam.items())
+print('age' in spam.keys())
+
+#COUNT TEH CHARACTERS
+
+sentence = 'Even the earliest computers performed calculations far faster than any human, but back then, people considered chess a true demonstration of computational intelligence.'
+
+count={} #blank dic to store the results
+
+for charac in sentence:
+    count.setdefault(charac,0)
+    count[charac] += 1
+
+print(count)
+
+birthdays = {'Alice': 'Apr 1', 'Bob': 'Dec 12', 'Carol': 'Mar 4'}
+birthdays.setdefault('color','black')
+print(birthdays)
